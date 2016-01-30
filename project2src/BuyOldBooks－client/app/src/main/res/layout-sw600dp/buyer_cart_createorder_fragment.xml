@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.apple.buyoldbooksunit3.ui.buyer_cart.Buyer_Cart_CreateOrderFragment">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:id="@+id/ordercancelbutton"
+        android:layout_below="@+id/TESTBUTTON"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shape1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GetYourLocation"
+        android:textSize="20dp"
+        android:id="@+id/locationbutton"
+        android:background="@drawable/shape1"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PlaceYourOrder"
+        android:id="@+id/placeorderbutton"
+        android:textSize="20dp"
+        android:layout_below="@+id/TESTBUTTON"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shape1"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/locationeditText"
+        android:textSize="25dp"
+        android:background="@drawable/bg_edittext1"
+        android:layout_below="@+id/locationbutton"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:id="@+id/TESTBUTTON"
+        android:textSize="20dp"
+        android:background="@drawable/shape1"
+        android:layout_below="@+id/locationeditText"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BuyOldBooksUnit3</string>
+
+    <string name="hello_world">Welcome to the Buy Old Book app!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_ui__login">Ui_LoginActivity</string>
+    <string name="title_activity_ui__register">Ui_RegisterActivity</string>
+    <string name="title_activity_ui__seller_home">Ui_SellerHomeActivity</string>
+    <string name="title_activity_epi">EPI_Activity</string>
+    <string name="title_activity_ui__seller__mbl_">Ui_Seller_MBL_Activity</string>
+    <string name="title_activity_ui__seller__unb_">Ui_Seller_UNB_Activity</string>
+    <string name="title_activity_ui__cn_">Ui_CN_Activity</string>
+    <string name="title_activity_ui__vol_">Ui_VOL_Activity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_ui__logout">Ui_LogoutActivity</string>
+    <string name="title_activity_ui__buyer__cart_">Ui_Buyer_Cart_Activity</string>
+    <string name="title_activity_ui__buyer_home">Ui_BuyerHomeActivity</string>
+    <string name="title_activity_ui__buyer__search_">Ui_Buyer_Search_Activity</string>
+    <string name="title_activity_buyer__epi_">Buyer_EPI_Activity</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_buyer__voicesearch_">Buyer_Voicesearch_Activity</string>
+    <string name="cancel">Cancel</string>
+    <string name="back">Back</string>
+    <string name="done">Done</string>
+</resources>

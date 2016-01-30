@@ -1,0 +1,202 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.apple.buyoldbooksunit3.ui.vol.Vol_OrderDetailsFragment">
+
+    <TableRow android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent" android:id="@+id/tableRow0"
+        android:layout_alignParentStart="true">
+        <TextView android:id="@+id/BuyerVOLOrderDTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order Information" android:textColor="#000"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textStyle="bold" />
+    </TableRow>
+    <TableRow android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent" android:id="@+id/tableRow1"
+        android:layout_below="@+id/tableRow0"
+
+        android:layout_alignParentStart="true">
+        <TextView android:id="@+id/BuyerVOLOrderDBookNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Name: " android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+        <TextView android:id="@+id/BuyerVOLOrderDBookNameTextView1"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+    </TableRow>
+    <TableRow android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent" android:id="@+id/tableRow2"
+        android:layout_below="@+id/tableRow1"
+
+        android:layout_alignParentStart="true">
+        <TextView android:id="@+id/BuyerVOLOrderDPriceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price: " android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+        <TextView android:id="@+id/BuyerVOLOrderDPriceTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+    </TableRow>
+    <TableRow android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent" android:id="@+id/tableRow3"
+        android:layout_below="@+id/tableRow2"
+
+        android:layout_alignParentStart="true">
+        <TextView android:id="@+id/BuyerVOLOrderDSellerNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SellerName: " android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+        <TextView android:id="@+id/BuyerVOLOrderDSellerNameTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+    </TableRow>
+    <TableRow android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent" android:id="@+id/tableRow4"
+        android:layout_below="@+id/tableRow3"
+
+        android:layout_alignParentStart="true">
+        <TextView android:id="@+id/BuyerVOLOrderDBuyerNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buyer Name:" android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+        <TextView android:id="@+id/BuyerVOLOrderDBuyerNameTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+    </TableRow>
+    <TableRow android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent" android:id="@+id/tableRow5"
+        android:layout_below="@+id/tableRow4"
+
+        android:layout_alignParentStart="true">
+        <TextView android:id="@+id/BuyerVOLOrderDDescribeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Degrees of Depreciation:" android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+        <TextView android:id="@+id/BuyerVOLOrderDDescribeTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+    </TableRow>
+    <TableRow android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent" android:id="@+id/tableRow6"
+        android:layout_below="@+id/tableRow5"
+
+        android:layout_alignParentStart="true">
+        <TextView android:id="@+id/BuyerVOLOrderDPaymentTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Method: " android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+        <TextView android:id="@+id/BuyerVOLOrderDPaymentTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+    </TableRow>
+    <TableRow android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent" android:id="@+id/tableRow7"
+        android:layout_below="@+id/tableRow6"
+
+        android:layout_alignParentStart="true">
+        <TextView android:id="@+id/BuyerVOLOrderDExpressTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Express method: " android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+        <TextView android:id="@+id/BuyerVOLOrderDExpressTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+    </TableRow>
+    <TableRow android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent" android:id="@+id/tableRow8"
+        android:layout_below="@+id/tableRow7"
+
+        android:layout_alignParentStart="true">
+        <TextView android:id="@+id/BuyerVOLOrderDDateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date: " android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+        <TextView android:id="@+id/BuyerVOLOrderDDateTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+    </TableRow>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:textSize="20dp"
+        android:id="@+id/buyerVOLOrderDBackButton"
+        android:background="@drawable/shape1"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tableRow8"
+        android:layout_marginTop="40dp"/>
+
+
+
+</RelativeLayout>

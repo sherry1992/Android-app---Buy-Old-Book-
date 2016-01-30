@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.apple.buyoldbooksunit3.ui.cn.Cn_NoticeDetailsFragment">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Note"
+        android:id="@+id/CNNoteDetailsTitleTextView"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From:"
+        android:id="@+id/CNNoteDetailsNameTextView"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:layout_marginStart="5sp"
+        android:layout_below="@+id/CNNoteDetailsTitleTextView"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date:"
+        android:id="@+id/CNNoteDetailsTimeTextView"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:layout_marginStart="5sp"
+        android:layout_below="@+id/CNNoteDetailsNameTextView"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Content:"
+        android:id="@+id/CNNoteDetailsContentTextView"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:layout_marginStart="5sp"
+        android:layout_below="@+id/CNNoteDetailsTimeTextView"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:id="@+id/CNNoteDetailsBackButton"
+        android:textSize="20dp"
+        android:layout_below="@+id/CnDetailsContentTextViewDisplay"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/shape1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/CnSenderNameTextView"
+        android:textSize="25dp"
+        android:layout_above="@+id/CNNoteDetailsTimeTextView"
+        android:layout_toEndOf="@+id/CNNoteDetailsContentTextView"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/CnTimeTextView"
+        android:textSize="25dp"
+        android:layout_above="@+id/CNNoteDetailsContentTextView"
+        android:layout_alignStart="@+id/CnSenderNameTextView"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/CnDetailsContentTextViewDisplay"
+        android:textSize="25dp"
+        android:layout_below="@+id/CNNoteDetailsContentTextView"
+        android:layout_alignStart="@+id/CNNoteDetailsContentTextView"
+        android:textStyle="italic" />
+</RelativeLayout>

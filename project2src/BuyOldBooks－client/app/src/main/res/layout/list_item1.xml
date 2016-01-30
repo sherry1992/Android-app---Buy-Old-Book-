@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Name : Yidi Liu-->
+<!--andrewID : yidil-->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="#000"
+    android:textSize="20dp"
+    android:gravity="start"
+    android:minHeight="?android:attr/listPreferredItemHeight" />

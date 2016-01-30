@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.apple.buyoldbooksunit3.ui.seller_mbl.Seller_Mbl_UpdateInfoFragment">
+
+    <TableRow android:layout_height="80dp"
+        android:layout_width="match_parent" android:id="@+id/tableRow0"
+        android:layout_alignParentStart="true">
+
+        <TextView android:id="@+id/SellerMBLUpdateInfoNameTextView"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Head First Java"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:gravity="start"/>
+    </TableRow>
+    <TableRow android:layout_height="50dp"
+        android:layout_width="match_parent" android:id="@+id/tableRow1"
+        android:layout_below="@+id/tableRow0"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+        <TextView android:id="@+id/SellerMBLUpdateInfoNewPriceTextView"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:text="New price:" android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:textSize="25dp"
+            android:gravity="start"/>
+        <EditText android:layout_width="100dp"
+            android:id="@+id/SellerMBLUpdateInfoNewPriceEditText"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textSize="25dp"
+            android:gravity="start"
+            android:background="@drawable/bg_edittext1"
+            android:layout_weight="0.52">
+        </EditText>
+    </TableRow>
+
+    <TableRow android:layout_height="60dp"
+        android:layout_width="match_parent" android:id="@+id/tableRow2"
+        android:layout_below="@+id/tableRow1"
+        android:layout_alignParentStart="true">
+        <TextView android:id="@+id/SellerMBLUpdateInfoNewDesTextView"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"
+            android:text="New Description:" android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="start"/>
+
+    </TableRow>
+    <TableRow android:layout_height="60dp"
+        android:layout_width="match_parent" android:id="@+id/tableRow3"
+        android:layout_below="@+id/tableRow2"
+        android:layout_alignParentStart="true">
+
+        <EditText android:layout_width="100dp"
+            android:id="@+id/SellerMBLUpdateInfoNewDesEditText"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content" android:layout_span="3"
+            android:inputType="text" android:layout_weight="1"
+            android:textSize="25dp"
+            android:background="@drawable/bg_edittext1"
+
+            android:gravity="start">
+        </EditText>
+    </TableRow>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/cancel"
+        android:id="@+id/SellerMBLUpdateINfoCancelButton"
+        android:background="@drawable/shape1"
+        android:layout_below="@+id/tableRow3"
+        android:textSize="20dp"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:layout_marginRight="10dp"
+        android:id="@+id/SellerMBLUpdateINfoUploadButton"
+        android:layout_alignTop="@+id/SellerMBLUpdateINfoCancelButton"
+        android:layout_alignParentEnd="true"
+        android:textSize="20dp"
+        android:background="@drawable/shape1" />
+
+</RelativeLayout>

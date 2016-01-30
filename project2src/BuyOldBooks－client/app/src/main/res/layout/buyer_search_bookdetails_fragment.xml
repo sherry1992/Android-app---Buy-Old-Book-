@@ -1,0 +1,195 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.apple.buyoldbooksunit3.ui.buyer_search.Buyer_Search_BookDetailsFragment">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/searchDetailImageView"
+        android:src="#70000000"
+        android:layout_alignTop="@+id/searchDetailPriceTextView"
+        android:layout_alignStart="@+id/searchDetailDescTextView"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_toStartOf="@+id/textView3"
+        android:layout_alignEnd="@+id/searchDetailDescTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:id="@+id/searchDetailBNameTextView"
+        android:textColor="#000"
+        android:layout_below="@+id/searchDetailPriceTextView"
+        android:layout_alignLeft="@+id/searchDetailPriceTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:id="@+id/searchDetailPriceTextView"
+        android:textColor="#000"
+        android:textIsSelectable="false"
+        android:layout_toEndOf="@+id/textView6"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:id="@+id/searchDetailSellerTextView"
+        android:textColor="#000"
+        android:layout_below="@+id/searchDetailBNameTextView"
+        android:layout_alignLeft="@+id/searchDetailPriceTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:id="@+id/searchDetailDepreTextView"
+        android:textColor="#000"
+        android:layout_below="@+id/searchDetailSellerTextView"
+        android:layout_alignLeft="@+id/searchDetailPriceTextView"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description:"
+        android:textSize="25dp"
+        android:layout_marginStart="10dp"
+        android:id="@+id/searchDetailDescTextView"
+        android:textColor="#000"
+        android:layout_below="@+id/searchDetailImageView"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginStart="10dp"
+
+        android:id="@+id/searchDetailDescTextView1"
+        android:textColor="#000"
+        android:layout_marginBottom="37dp"
+        android:layout_above="@+id/searchDetailPayMethodTextView"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Method:"
+
+        android:textSize="25dp"
+        android:id="@+id/searchDetailPayMethodTextView"
+        android:textColor="#000"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/searchDetailDescTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Express Method:"
+
+        android:textSize="25dp"
+        android:id="@+id/searchDetailExpMethodTextView"
+        android:textColor="#000"
+        android:layout_alignTop="@+id/searchDetailExpressTextView1"
+        android:layout_alignStart="@+id/searchDetailPayMethodTextView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:id="@+id/searchDetailBackButton"
+        android:textSize="20dp"
+        android:background="@drawable/shape1"
+        android:layout_below="@+id/searchDetailExpMethodTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="44dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to cart"
+        android:id="@+id/addToCartButton"
+        android:textSize="20dp"
+
+        android:background="@drawable/shape1"
+        android:layout_alignTop="@+id/cart1button"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cart"
+        android:id="@+id/cart1button"
+        android:textSize="20dp"
+
+        android:background="@drawable/shape1"
+        android:layout_alignTop="@+id/searchDetailBackButton"
+        android:layout_toEndOf="@+id/searchDetailDescTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:id="@+id/searchDetailPayMethodTextView1"
+        android:layout_alignBottom="@+id/searchDetailPayMethodTextView"
+        android:layout_alignTop="@+id/searchDetailPayMethodTextView"
+        android:layout_alignStart="@+id/addToCartButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:id="@+id/searchDetailExpressTextView1"
+        android:layout_toEndOf="@+id/searchDetailPriceTextView"
+        android:layout_below="@+id/searchDetailPayMethodTextView1"
+        android:layout_alignStart="@+id/searchDetailPayMethodTextView1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price:"
+        android:textSize="25dp"
+        android:id="@+id/textView3"
+        android:textColor="#000"
+        android:textIsSelectable="false"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textSize="25dp"
+        android:id="@+id/textView4"
+        android:textColor="#000"
+        android:layout_below="@+id/searchDetailPriceTextView"
+        android:layout_alignStart="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seller:"
+        android:textSize="25dp"
+        android:id="@+id/textView5"
+        android:textColor="#000"
+        android:layout_below="@+id/searchDetailBNameTextView"
+        android:layout_alignStart="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Depreciation:"
+        android:textSize="25dp"
+        android:id="@+id/textView6"
+        android:textColor="#000"
+        android:layout_below="@+id/searchDetailSellerTextView"
+        android:layout_alignStart="@+id/textView5" />
+
+
+</RelativeLayout>

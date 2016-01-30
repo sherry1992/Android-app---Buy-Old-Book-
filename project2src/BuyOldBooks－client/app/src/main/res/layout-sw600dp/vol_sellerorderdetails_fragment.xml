@@ -1,0 +1,250 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.apple.buyoldbooksunit3.ui.vol.Vol_SellerOrderDetailsFragment">
+
+    <TableRow android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent" android:id="@+id/tableRow0"
+        android:layout_alignParentStart="true">
+        <TextView android:id="@+id/SellerVOLOrderDTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order Information" android:textColor="#000"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textStyle="bold" />
+    </TableRow>
+    <TableRow android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_width="match_parent" android:id="@+id/tableRow1"
+        android:layout_below="@+id/tableRow0"
+
+        android:layout_alignParentStart="true">
+        <TextView android:id="@+id/SellerVOLOrderDBookNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Name: " android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+        <TextView android:id="@+id/SellerVOLOrderDBookNameTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="normal" />
+    </TableRow>
+    <TableRow android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_width="match_parent" android:id="@+id/tableRow2"
+        android:layout_below="@+id/tableRow1"
+
+        android:layout_alignParentStart="true">
+        <TextView android:id="@+id/SellerVOLOrderDPriceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price: " android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+        <TextView android:id="@+id/SellerVOLOrderDPriceTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+    </TableRow>
+    <TableRow android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_width="match_parent" android:id="@+id/tableRow3"
+        android:layout_below="@+id/tableRow2"
+
+        android:layout_alignParentStart="true">
+        <TextView android:id="@+id/SellerVOLOrderDSellerNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SellerName: " android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+        <TextView android:id="@+id/SellerVOLOrderDSellerNameTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+    </TableRow>
+    <TableRow android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_width="match_parent" android:id="@+id/tableRow4"
+        android:layout_below="@+id/tableRow3"
+
+        android:layout_alignParentStart="true">
+        <TextView android:id="@+id/SellerVOLOrderDBuyerNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buyer Name:" android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+        <TextView android:id="@+id/SellerVOLOrderDBuyerNameTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+    </TableRow>
+    <TableRow android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_width="match_parent" android:id="@+id/tableRow5"
+        android:layout_below="@+id/tableRow4"
+
+        android:layout_alignParentStart="true">
+        <TextView android:id="@+id/SellerVOLOrderDDescribeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Degrees of Depreciation:" android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+        <TextView android:id="@+id/SellerVOLOrderDDescribeTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+    </TableRow>
+    <TableRow android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_width="match_parent" android:id="@+id/tableRow6"
+        android:layout_below="@+id/tableRow5"
+
+        android:layout_alignParentStart="true">
+        <TextView android:id="@+id/SellerVOLOrderDPaymentTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Method: "
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+        <TextView android:id="@+id/SellerVOLOrderDPaymentTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+    </TableRow>
+    <TableRow android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_width="match_parent" android:id="@+id/tableRow7"
+        android:layout_below="@+id/tableRow6"
+
+        android:layout_alignParentStart="true">
+        <TextView android:id="@+id/SellerVOLOrderDExpressTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Express method: "
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+        <TextView android:id="@+id/SellerVOLOrderDExpressTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+    </TableRow>
+    <TableRow android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_width="match_parent" android:id="@+id/tableRow8"
+        android:layout_below="@+id/tableRow7"
+
+        android:layout_alignParentStart="true">
+        <TextView android:id="@+id/SellerVOLOrderDAcceptTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Will you accept this order?" android:textColor="#000"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="normal" />
+
+    </TableRow>
+    <TableRow android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_width="match_parent" android:id="@+id/tableRow9"
+        android:layout_below="@+id/tableRow8"
+
+        android:layout_alignParentStart="true">
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tableRow1"
+            android:gravity="start"
+            android:id="@+id/ConfirmRadioGroup">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textSize="25dp"
+
+                android:id="@+id/sellerAcceptRadioButton0"
+                android:checked="false" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:textSize="25dp"
+
+                android:id="@+id/sellerAcceptRadioButton1"
+                android:checked="false" />
+
+        </RadioGroup>
+
+    </TableRow>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:textSize="20dp"
+
+        android:id="@+id/sellerVOLOrderDBackButton"
+        android:background="@drawable/shape1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tableRow9" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/done"
+        android:textSize="20dp"
+
+        android:id="@+id/sellerVOLOrderDDoneButton"
+        android:layout_alignBottom="@+id/sellerVOLOrderDBackButton"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/shape1" />
+
+</RelativeLayout>

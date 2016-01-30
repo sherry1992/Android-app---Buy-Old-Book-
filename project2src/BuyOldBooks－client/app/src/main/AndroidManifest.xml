@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apple.buyoldbooksunit3" >
+
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--
+ To retrieve OAuth 2.0 tokens or invalidate tokens to disconnect a user. This disconnect
+     option is required to comply with the Google+ Sign-In developer policies
+    -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" /> <!-- To retrieve the account name (email) as part of sign-in: -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" /> <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--
+ To retrieve OAuth 2.0 tokens or invalidate tokens to disconnect a user. This disconnect
+     option is required to comply with the Google+ Sign-In developer policies
+    -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" /> <!-- To retrieve the account name (email) as part of sign-in: -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" /> <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- To access Google+ APIs: -->
+    <uses-sdk android:minSdkVersion="15" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--
+ To retrieve OAuth 2.0 tokens or invalidate tokens to disconnect a user. This disconnect
+     option is required to comply with the Google+ Sign-In developer policies
+    -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" /> <!-- To retrieve the account name (email) as part of sign-in: -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" /> <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ui.Ui_MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.Ui_LoginActivity"
+            android:label="@string/title_activity_ui__login"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".ui.Ui_RegisterActivity"
+            android:label="@string/title_activity_ui__register" >
+        </activity>
+        <activity
+            android:name=".ui.seller_home.Seller_Home_Activity"
+            android:label="@string/title_activity_ui__seller_home" >
+        </activity>
+        <activity
+            android:name=".ui.epi.Epi_Activity"
+            android:label="@string/title_activity_epi" >
+        </activity>
+        <activity
+            android:name=".ui.seller_mbl.Seller_Mbl_Activity"
+            android:label="@string/title_activity_ui__seller__mbl_" >
+        </activity>
+        <activity
+            android:name=".ui.seller_unb.Seller_Unb_Activity"
+            android:label="@string/title_activity_ui__seller__unb_" >
+        </activity>
+        <activity
+            android:name=".ui.cn.Cn_Activity"
+            android:label="@string/title_activity_ui__cn_" >
+        </activity>
+        <activity
+            android:name=".ui.vol.Vol_Activity"
+            android:label="@string/title_activity_ui__vol_" >
+        </activity>
+        <activity
+            android:name=".ui.Ui_LogoutActivity"
+            android:label="@string/title_activity_ui__logout" >
+        </activity>
+        <activity
+            android:name=".ui.buyer_cart.Buyer_Cart_Activity"
+            android:label="@string/title_activity_ui__buyer__cart_" >
+        </activity>
+        <activity
+            android:name=".ui.buyer_home.Buyer_HomeActivity"
+            android:label="@string/title_activity_ui__buyer_home" >
+        </activity>
+        <activity
+            android:name=".ui.buyer_search.Buyer_Search_Activity"
+            android:label="@string/title_activity_ui__buyer__search_" >
+        </activity>
+        <activity
+            android:name=".Test"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name=".ui.buyer_search.Buyer_Voicesearch_Activity"
+            android:label="@string/title_activity_buyer__voicesearch_" >
+        </activity>
+    </application>
+
+</manifest>
